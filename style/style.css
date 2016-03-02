@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+    background-color: #323232;
+    color: #ddd;
+    font-family: 'lato';
+}
+
+.navitem{
+    display: inline;
+    padding: 6px;
+}
+@media screen and (max-width: 480px) {
+    .navitem {
+        display: block;
+    }
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+.selected {
+    background-color: #228899
+}
+
+.navigation ul li:hover{
+    background-color: #882299
+}
+
+a {
+    color: white;
+}
+
+.score {
+    font-size: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+    text-align: right;
+    vertical-align: middle;
+
+}
+
+.title {
+    font-size: 20px;
+    text-align: left;
+    vertical-align: middle;
+    text-decoration: none;
+
+}
+
+.thumbnail {
+    width: 70px;
+    height: 70px;
+}
+
+.author {
+    font-size:14px;
+}
